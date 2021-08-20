@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About me</title>
+</head>
+<body>
+<h3>Informations Générales</h3>
+<ul>
+    <li>Alger, ALGERIE </li>
+    <li>05 60 62 89 99</li>
+    <li>mohamedyazid.cherifi@gmail.com</li>
+    <li>em_cherifi@esi.dz</li>
+</ul>
+
+<hr size="2">
+
+<form method="post" action="">
+
+    <label for="name">Your name : </label>
+    <input id="name" type="text" name="name"/>
+    <br/>
+
+    <label for="password">Your password : </label>
+    <input id="password" type="password" name="password"/>
+    <br/>
+
+    <label for="email">Your email : </label>
+    <input id="email" type="email" name="email"/>
+    <br/>
+
+    <label>Hobbies</label>
+    <input type="checkbox" name="sport" id="sport"  value="sport">
+    <label for="sport">sport</label>
+    <input type="checkbox" name="cuisine" id="cuisine" value="cuisine">
+    <label for="cuisine">cuisine</label>
+    <input type="checkbox" name="musique" id="musique" value="musique">
+    <label for="musique">musique</label>
+    <br/>
+
+    <label>Sexe</label>
+    <input type="radio" name="sexe" value="Male" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="sexe" value="Female" id="female">
+    <label for="female">Female</label>
+    <input type="radio" name="sexe" value="Autre" id="autre">
+    <label for="autre">Autre</label>
+    <br/>
+
+    <label for="pays">Pays</label>
+    <select id="pays" name="pays">
+        <option>Algérie</option>
+        <option>Tunisie</option>
+        <option>Maroc</option>
+        <option>France</option>
+    </select>
+    <br/>
+
+    <label for="ice-cream-choice">Choose a flavor:</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+    <datalist id="ice-cream-flavors">
+        <option value="Chocolate">
+        <option value="Coconut">
+        <option value="Mint">
+        <option value="Strawberry">
+        <option value="Vanilla">
+    </datalist>
+    <br>
+
+    <input type="reset" value="Reset">
+    <br/>
+
+    <input type="submit" value="Send">
+
+</form>
+</body>
+</html>
